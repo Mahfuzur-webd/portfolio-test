@@ -8,7 +8,7 @@ body{
 h1{
     font-size: 50px;
 }
-section{
+.flexi{
     display: flex;
 }
 p{
@@ -17,6 +17,7 @@ p{
 .half-width{
     width 50%;
     padding-left: 5%;
+    padding-right: 5%;
     padding-top: 2;
 }
 .half-width img{
@@ -44,5 +45,24 @@ p{
 }
 .text{
     text-align: justify;
+}
+.box-shadow{
+    box-shadow: 10px 10px 40px 10px gray;
+    border-left: 10px solid black;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-right: 40px;
+    margin-bottom: 45px;
+    margin-top: 10px;
+    padding: 10px 40px 10px;
+    
+}
+.th-bg{
+    background-image: url("images/exp-bg.png");
+    background-position: left;
+    background-repeat: no-repeat;
+}
+footer{
+    text-align: center;
 }
     
